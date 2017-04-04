@@ -6,6 +6,9 @@ public class IncrementObserver implements Observer {
   }
 
   public void update( Observable observable ) {
-    System.out.println( name + " observer sees " +  ( (IncrementObservable) observable ).getIncrement() );
+    System.out.println( 
+      name + " observer sees " +  
+      ((IncrementObservable) observable ).getIncrement() 
+    );
   }
 }

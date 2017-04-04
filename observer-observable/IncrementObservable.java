@@ -1,5 +1,6 @@
 public class IncrementObservable extends Observable {
   private int counter;
+  
   public IncrementObservable() {
     this.counter = 0;
   }
